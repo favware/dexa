@@ -10,7 +10,7 @@
   "dependencies": {
     "alexa-app": "^4.2.3",
     "common-tags": "^1.8.0",
-    "fuse.js": "^3.4.1",
+    "fuse.js": "^3.4.4",
     "path": "^0.12.7"
   },
   "devDependencies": {
