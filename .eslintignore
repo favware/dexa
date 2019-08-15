@@ -1,1 +1,3 @@
-functions/dexa/data/*.js
+legacy/
+**/dist/*.js
+**/docs/

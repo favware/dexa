@@ -1,0 +1,10 @@
+{
+  "extends": "@favware/ts-config",
+  "compilerOptions": {
+    "module": "commonjs",
+    "declarationMap": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "typeRoots": ["typings", "node_modules/@types"]
+  }
+}

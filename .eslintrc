@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "@favware"
+  ],
+  "rules": {
+    "new-cap": "off",
+    "object-curly-newline": "off",
+    "no-invalid-this": "off",
+    "no-useless-escape": "off",
+    "jest/valid-expect-in-promise": "off"
+  },
+  "parserOptions": {
+    "createDefaultProgram": true
+  }
+}

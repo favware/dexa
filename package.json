@@ -1,0 +1,72 @@
+{
+  "name": "@favware/dexa",
+  "version": "2.0.0",
+  "description": "Amazing pokedex skill for Alexa",
+  "author": "@favware",
+  "license": "MIT",
+  "main": "functions/dexa/index.js",
+  "homepage": "https://favware.tech/dexa",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src --ext ts --fix",
+    "test": "jest",
+    "build": "tsc -b src",
+    "watch": "tsc -b src -w",
+    "up": "yarn upgrade-interactive --latest",
+    "predeploy": "yarn scripts:prepareawsfunction",
+    "deploy": "apex deploy",
+    "sversion": "standard-version",
+    "scripts:runner": "ts-node -P tsconfig.eslint.json",
+    "scripts:skillDataGenerator": "yarn scripts:runner scripts/skillDataGenerator",
+    "scripts:prepareawsfunction": "yarn scripts:runner scripts/prepareAwsFunction"
+  },
+  "dependencies": {
+    "@klasa/utils": "^0.0.4",
+    "alexa-app": "^4.2.3",
+    "apollo-boost": "^0.4.7",
+    "confusables": "^0.3.3",
+    "cross-fetch": "^3.0.4",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1"
+  },
+  "devDependencies": {
+    "@favware/eslint-config": "3.1.6",
+    "@favware/graphql-pokemon": "^1.6.0",
+    "@favware/ts-config": "^1.1.0",
+    "@types/common-tags": "^1.8.0",
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.2",
+    "@types/supertest": "^2.0.8",
+    "common-tags": "^1.8.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "fs-nextra": "^0.4.7",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.4"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favware/dexa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/favware/dexa/issues"
+  },
+  "keywords": [
+    "favware",
+    "typescript",
+    "ts",
+    "yarn",
+    "alexa",
+    "alexa-app",
+    "pokemon",
+    "dexa"
+  ]
+}
