@@ -6,7 +6,4 @@ const AWS_DIR = join(__dirname, '..', 'functions', 'dexa');
 const AWS_PACKAGE_JSON = join(AWS_DIR, 'package.json');
 const AWS_TSBUILDINFO = join(AWS_DIR, 'tsconfig.tsbuildinfo');
 
-Promise.all([
-  copyFileAtomic(ASSETS_PACKAGE_JSON, AWS_PACKAGE_JSON),
-  remove(AWS_TSBUILDINFO)
-]);
+Promise.all([copyFileAtomic(ASSETS_PACKAGE_JSON, AWS_PACKAGE_JSON), remove(AWS_TSBUILDINFO)]);

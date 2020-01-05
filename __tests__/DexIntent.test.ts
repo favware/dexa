@@ -24,11 +24,11 @@ describe('DexIntent', () => {
             slots: {
               POKEMON: {
                 name: 'POKEMON',
-                value: 'dragonite',
-              },
-            },
-          },
-        },
+                value: 'dragonite'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -57,11 +57,11 @@ describe('DexIntent', () => {
             slots: {
               POKEMON: {
                 name: 'POKEMON',
-                value: 'dragonair',
-              },
-            },
-          },
-        },
+                value: 'dragonair'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -91,11 +91,11 @@ describe('DexIntent', () => {
             slots: {
               POKEMON: {
                 name: 'POKEMON',
-                value: 'dratini',
-              },
-            },
-          },
-        },
+                value: 'dratini'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -124,11 +124,11 @@ describe('DexIntent', () => {
             slots: {
               POKEMON: {
                 name: 'POKEMON',
-                value: 'smeargle',
-              },
-            },
-          },
-        },
+                value: 'smeargle'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -156,11 +156,11 @@ describe('DexIntent', () => {
             slots: {
               POKEMON: {
                 name: 'POKEMON',
-                value: 'metagross',
-              },
-            },
-          },
-        },
+                value: 'metagross'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;

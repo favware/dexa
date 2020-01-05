@@ -169,13 +169,13 @@ export const parseMoveTarget = (target: MoveEntry['target']) => {
       return 'all Pokémon';
     case 'All Adjacent':
       return 'all adjacent Pokémon';
-    case 'Ally\'s Side':
-      return 'the ally\'s side';
+    case "Ally's Side":
+      return "the ally's side";
     case 'Any':
       return 'any Pokémon';
     case 'Foe that last hit user':
       return 'the foe that last hit the user';
-    case 'Foe\'s Side':
+    case "Foe's Side":
       return 'the entire side of the foe';
     case 'Normal':
       return 'regular targets';

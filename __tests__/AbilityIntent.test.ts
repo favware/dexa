@@ -24,11 +24,11 @@ describe('AbilityIntent', () => {
             slots: {
               ABILITY: {
                 name: 'ABILITY',
-                value: 'multiscale',
-              },
-            },
-          },
-        },
+                value: 'multiscale'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;

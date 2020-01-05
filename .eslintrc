@@ -3,13 +3,13 @@
     "@favware"
   ],
   "rules": {
-    "new-cap": "off",
-    "object-curly-newline": "off",
-    "no-invalid-this": "off",
-    "no-useless-escape": "off",
-    "jest/valid-expect-in-promise": "off"
-  },
-  "parserOptions": {
-    "createDefaultProgram": true
+    "array-bracket-spacing": "off",
+    "eol-last":"off",
+    "comma-dangle":"off",
+    "no-useless-escape":"off",
+    "quotes":"off",
+    "no-invalid-this":"off",
+    "object-curly-newline":"off",
+    "new-cap":"off"
   }
 }

@@ -24,11 +24,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'dragon claw',
-              },
-            },
-          },
-        },
+                value: 'dragon claw'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -57,11 +57,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'dragondance',
-              },
-            },
-          },
-        },
+                value: 'dragondance'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -90,11 +90,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'pikapapow',
-              },
-            },
-          },
-        },
+                value: 'pikapapow'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -123,11 +123,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'return',
-              },
-            },
-          },
-        },
+                value: 'return'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -155,11 +155,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'catastropika',
-              },
-            },
-          },
-        },
+                value: 'catastropika'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -188,11 +188,11 @@ describe('MoveIntent', () => {
             slots: {
               MOVE: {
                 name: 'MOVE',
-                value: 'gmaxvoltcrash',
-              },
-            },
-          },
-        },
+                value: 'gmaxvoltcrash'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;

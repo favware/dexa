@@ -24,11 +24,11 @@ describe('ItemIntent', () => {
             slots: {
               ITEM: {
                 name: 'ITEM',
-                value: 'Life Orb',
-              },
-            },
-          },
-        },
+                value: 'Life Orb'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;
@@ -54,11 +54,11 @@ describe('ItemIntent', () => {
             slots: {
               ITEM: {
                 name: 'ITEM',
-                value: 'pikashuniumz',
-              },
-            },
-          },
-        },
+                value: 'pikashuniumz'
+              }
+            }
+          }
+        }
       });
 
     const { ssml } = res.body.response.outputSpeech;

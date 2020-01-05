@@ -15,7 +15,7 @@ export function setup() {
   dexa.express({
     expressApp: app,
     debug: true,
-    checkCert: false,
+    checkCert: false
   });
 
   SERVER = app.listen();
