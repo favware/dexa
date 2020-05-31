@@ -679,10 +679,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.4.tgz#43a63fc5edce226bed106b31b875165256271107"
   integrity sha512-k3NqigXWRzQZVBDS5D1U70A5E8Qk4Kh+Ha/x4M8Bt9pF0X05eggfnC9+63Usc9Q928hRUIpIhTQaXsZwZBl4Ew==
 
-"@types/node@^14.0.5":
-  version "14.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
-  integrity sha512-90hiq6/VqtQgX8Sp0EzeIsv3r+ellbGj4URKj5j30tLlZvRUpnAe9YbYnjl3pJM93GyXU0tghHhvXHq+5rnCKA==
+"@types/node@^14.0.6":
+  version "14.0.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.6.tgz#f9e178b2da31a4b0ec60b64649e244c31ce18daf"
+  integrity sha512-FbNmu4F67d3oZMWBV6Y4MaPER+0EpE9eIYf2yaHhCWovc1dlXCZkqGX4NLHfVVr6umt20TNBdRzrNJIzIKfdbw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -5500,10 +5500,10 @@ ts-jest@^26.0.0:
     semver "7.x"
     yargs-parser "18.x"
 
-ts-node@^8.10.1:
-  version "8.10.1"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.10.1.tgz#77da0366ff8afbe733596361d2df9a60fc9c9bd3"
-  integrity sha512-bdNz1L4ekHiJul6SHtZWs1ujEKERJnHs4HxN7rjTyyVOFf3HaJ6sLqe6aPG62XTzAB/63pKRh5jTSWL0D7bsvw==
+ts-node@^8.10.2:
+  version "8.10.2"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.10.2.tgz#eee03764633b1234ddd37f8db9ec10b75ec7fb8d"
+  integrity sha512-ISJJGgkIpDdBhWVu3jufsWpK3Rzo7bdiIXJjQc0ynKxVOVcg2oIrf2H2cejminGrptVc6q6/uynAHNCuWGbpVA==
   dependencies:
     arg "^4.1.0"
     diff "^4.0.1"
