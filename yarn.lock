@@ -274,17 +274,17 @@
     "@typescript-eslint/parser" "^3.2.0"
     eslint "^7.2.0"
 
-"@favware/graphql-pokemon@^4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@favware/graphql-pokemon/-/graphql-pokemon-4.2.3.tgz#3e160cff842c9fcd8a96ef677ed1f86b6435a7a7"
-  integrity sha512-EmvR5s9X9m0vjoSsJDEAaIkf3D5gJGv1d6iWrCYy6A1T1TE0M/OoUPsHnQRVBk3S4Peg82P+Sgu0J25JNCk5QQ==
+"@favware/graphql-pokemon@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@favware/graphql-pokemon/-/graphql-pokemon-4.2.4.tgz#3d36d8b28a3caf5e7aa1c6382198def7fa53d5e6"
+  integrity sha512-gm/hgaPv4Ryz6tS8OJc82w2ipsklOQ7B1/a4ThvbbV5U2NaQNtP0LKbym/x9N7RrS8qKb3KYOD2AbUl/O7hdSQ==
   dependencies:
-    graphql "^15.2.0"
+    graphql "^15.3.0"
 
-"@favware/ts-config@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@favware/ts-config/-/ts-config-3.0.2.tgz#4b8c96efc1ffe6359a6fda10c1a8211266308df7"
-  integrity sha512-T20sRidRETqffgiCzY+vi6uri0W30YUUD9ENZKpBz3+L4xkwoeBxVDqWjTk2OQBNhHFWsuoT4gRY4eBhczWdnw==
+"@favware/ts-config@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@favware/ts-config/-/ts-config-3.0.3.tgz#c783dc58e4a939d75b281f9c331d1782fb3e22c6"
+  integrity sha512-ak/HgwjRgPdD7g0W+7QNMMOPa2NuSUxCPgmMLpDNAJ51+6lvvhGrGhAd/Yu2f9Eq60pMQqOk0swB0e63CFMMNg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"
@@ -471,7 +471,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@jest/types@^26.1.0", "@jest/types@^26.2.0":
+"@jest/types@^26.2.0":
   version "26.2.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.2.0.tgz#b28ca1fb517a4eb48c0addea7fcd9edc4ab45721"
   integrity sha512-lvm3rJvctxd7+wxKSxxbzpDbr4FXDLaC57WEKdUIZ2cjTYuxYSc0zlyD7Z4Uqr5VdKxRUrtwIkiqBuvgf8uKJA==
@@ -651,10 +651,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.8":
-  version "26.0.8"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.8.tgz#f5c5559cf25911ce227f7ce30f1f160f24966369"
-  integrity sha512-eo3VX9jGASSuv680D4VQ89UmuLZneNxv2MCZjfwlInav05zXVJTzfc//lavdV0GPwSxsXJTy2jALscB7Acqg0g==
+"@types/jest@^26.0.9":
+  version "26.0.9"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.9.tgz#0543b57da5f0cd949c5f423a00c56c492289c989"
+  integrity sha512-k4qFfJ5AUKrWok5KYXp2EPm89b0P/KZpl7Vg4XuOTVVQEhLDBDBU3iBFrjjdgd8fLw96aAtmnwhXHl63bWeBQQ==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
@@ -2570,7 +2570,7 @@ graphql@0.9.6, graphql@^0.9.5, graphql@^0.9.6:
   dependencies:
     iterall "^1.0.0"
 
-graphql@^15.2.0, graphql@^15.3.0:
+graphql@^15.3.0:
   version "15.3.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.3.0.tgz#3ad2b0caab0d110e3be4a5a9b2aa281e362b5278"
   integrity sha512-GTCJtzJmkFLWRfFJuoo9RWWa/FfamUHgiFosxi/X1Ani4AVWbeyBenZTNX6dM+7WSbbFfTo/25eh0LLkwHMw2w==
