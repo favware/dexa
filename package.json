@@ -36,7 +36,7 @@
     "graphql-tag": "^2.11.0"
   },
   "devDependencies": {
-    "@favware/eslint-config": "5.1.2",
+    "@favware/eslint-config": "5.1.3",
     "@favware/graphql-pokemon": "^4.2.5",
     "@favware/ts-config": "^3.0.3",
     "@playlyfe/gql": "^2.6.2",
