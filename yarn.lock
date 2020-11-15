@@ -559,10 +559,10 @@
     parse-glob "3.0.4"
     promise-retry "1.1.1"
 
-"@sapphire/utilities@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-1.0.2.tgz#91f4efc7208e5e9bb65096e7ee2c21b7322a2760"
-  integrity sha512-+VeSCI+M1Dd3vVbQjcDmFrS7erqWpKySrv+2qDtCTt57BQNZ+Ca406bUohN34JbJQ0rwAB3vtpCLpaWdOwaqhA==
+"@sapphire/utilities@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-1.1.0.tgz#f0eb237240c4607301eb170f6cc7f27369ae1ab0"
+  integrity sha512-EPZS+Ho+1bVgt/DBlkof1rV4JK4fjS1kIyvFgrhV+AvJb9/5ohk+CzYDR44k79824DqpX2st6jNcLPybDLy9Pw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
