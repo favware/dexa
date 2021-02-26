@@ -4,7 +4,7 @@
   </p>
 
   <p>
-<h1> Daxa </h1>
+<h1> Dexa </h1>
 <h3> Alexa skill for Pokédex information!</h3>
   </p>
 
