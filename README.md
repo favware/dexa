@@ -25,7 +25,9 @@
 
 ## About
 
-Dexa is a skill for Amazon Alexa to easily find data from in the Pokédex. You can ask Alexa to get you information on pokémon, items, moves and abilities.
+Dexa is a skill for Amazon Alexa to easily find data from in the Pokédex. You can ask Alexa to get you information on Pokémon, items, moves and abilities.
+
+### [Add Dexa to your Alexa!](https://redirect.favware.tech/dexa)
 
 ## Special Thanks
 
