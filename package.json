@@ -58,7 +58,7 @@
   },
   "engines": {
     "node": ">=v14.17.6",
-    "npm": ">=7"
+    "npm": ">=7.24.1"
   },
   "lint-staged": {
     "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
