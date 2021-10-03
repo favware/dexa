@@ -336,12 +336,12 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@favware/graphql-pokemon@^6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@favware/graphql-pokemon/-/graphql-pokemon-6.0.4.tgz#62fbc0322807c26ddfad3f9bce0b5f2f774505e8"
-  integrity sha512-EkZCSs0wdv+8Y/3tit2AKZDj9rV2vaGp6vsXaAf6gJFt/yMrXjO5cRojqxZwBdr8ZXniDnpIL7K2EJL3C4B3Ow==
+"@favware/graphql-pokemon@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@favware/graphql-pokemon/-/graphql-pokemon-6.1.0.tgz#d30ed988537454228472d9a382744f6d31321bb5"
+  integrity sha512-LX7YAIEGt82i50uQwQ3oyLpM68biTLHuMDOrbqHZcfSyQhIFrddfPiwxT19PnCeN/vZUR5iItmc2JXR/+UvKAw==
   dependencies:
-    graphql "^15.5.3"
+    graphql "^15.6.0"
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -2205,7 +2205,7 @@ graphql-tag@^2.12.5, graphql-tag@^2.4.2:
   dependencies:
     tslib "^2.1.0"
 
-graphql@^15.5.3, graphql@^15.6.0:
+graphql@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.6.0.tgz#e69323c6a9780a1a4b9ddf7e35ca8904bb04df02"
   integrity sha512-WJR872Zlc9hckiEPhXgyUftXH48jp2EjO5tgBBOyNMRJZ9fviL2mJBD6CAysk6N5S0r9BTs09Qk39nnJBkvOXQ==
