@@ -32,10 +32,10 @@
     "confusables": "^1.0.0",
     "cross-fetch": "^3.1.4",
     "graphql": "^15.7.2",
-    "graphql-tag": "^2.12.5"
+    "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
-    "@favware/graphql-pokemon": "^6.2.0",
+    "@favware/graphql-pokemon": "^6.2.1",
     "@sapphire/eslint-config": "^4.0.3",
     "@sapphire/prettier-config": "^1.2.4",
     "@sapphire/ts-config": "^3.1.4",
