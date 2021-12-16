@@ -29,3 +29,8 @@ coverage/
 
 # Transpiled files
 dist/
+bundle/
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
