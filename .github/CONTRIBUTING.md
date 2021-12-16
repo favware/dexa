@@ -13,14 +13,13 @@ To get ready to work on the codebase, please do the following:
 1. Fork & clone the repository, and make sure you're on the **main** branch
 2. Run `yarn install`
 3. Code your heart out!
-4. Ensure your changes compile (`yarn build`) and run by testing them using GraphQL Playground.
-   - You can start compiling in watch mode with `yarn watch`
+4. Ensure your changes compile (`yarn build`)
 5. If you have any substantial code changes make sure these are covered in unit tests
 6. Run `yarn lint && yarn test` to run ESLint and ensure all tests pass
    - In order to run tests you will need to have the API running locally, ideally through Docker:
 
 ```sh
-docker container run --name graphql-pokemon -d --expose 8080 -p 4000:8080 -it favware/graphql-pokemon:latest
+docker-compose up --detach pokedex
 ```
 
 7. Submit a pull request

@@ -1,12 +1,12 @@
 ---
-
 name: Bug report
 about: Report incorrect or unexpected behaviour of this library
 title: 'Fix(): '
 assignees: ''
----<!--
-If you need help with the library installation or usage, please go to the Discord server instead:
-  https://join.favware.tech
+---
+
+<!--
+If you need help with dexa's usage, please go to the Discord server instead: https://join.favware.tech
 This issue tracker is only for bug reports and enhancement suggestions.
 You likely won't receive any basic help here.
 -->
