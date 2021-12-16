@@ -4,7 +4,6 @@
   "description": "Amazing pokedex skill for Alexa",
   "author": "@favware",
   "license": "MIT",
-  "homepage": "https://favware.tech/dexa",
   "private": true,
   "scripts": {
     "lint": "eslint src scripts __tests__ --ext mjs,ts --fix",
@@ -13,16 +12,9 @@
     "build": "tsc -b src",
     "watch": "tsc -b src -w",
     "update": "yarn upgrade-interactive --latest",
-    "predeploy": "rimraf dist && yarn build",
-    "deploy": "run-s deploy:prep deploy:install-packages deploy:zip deploy:push",
-    "deploy:prep": "yarn scripts:prepareawsfunction",
-    "deploy:install-packages": "cd dist && yarn --ignore-scripts --no-lockfile --production --ignore-optional --non-interactive --no-bin-links --link-duplicates",
-    "deploy:zip": "cd dist && zip -rq function.zip .",
-    "deploy:push": "cd dist && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
+    "deploy": "node scripts/clean.mjs && node scripts/bundle.mjs && cd bundle && zip -rq function.zip . && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
     "sversion": "standard-version",
-    "prescripts:skilldatagenerator": "yarn build",
-    "scripts:skilldatagenerator": "node scripts/skillDataGenerator.mjs",
-    "scripts:prepareawsfunction": "node scripts/prepareAwsFunction.mjs",
+    "scripts:skilldatagenerator": "yarn build && node scripts/skillDataGenerator.mjs",
     "prepare": "husky install .github/husky"
   },
   "dependencies": {
@@ -35,56 +27,42 @@
     "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
-    "@favware/graphql-pokemon": "^6.2.5",
+    "@favware/graphql-pokemon": "^6.2.6",
     "@sapphire/eslint-config": "^4.0.8",
     "@sapphire/prettier-config": "^1.2.7",
     "@sapphire/ts-config": "^3.1.6",
+    "@types/eslint": "^8",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.12",
+    "@types/node": "^17.0.0",
+    "@types/prettier": "^2",
     "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "esbuild": "^0.14.5",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "express": "^4.17.1",
     "husky": "^7.0.4",
-    "jest": "^27.4.4",
-    "jest-circus": "^27.4.4",
+    "jest": "^27.4.5",
+    "jest-circus": "^27.4.5",
     "lint-staged": "^12.1.2",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
     "pretty-quick": "^3.1.2",
     "rimraf": "^3.0.2",
     "supertest": "^6.1.6",
     "ts-jest": "^27.1.1",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.3"
+    "typescript": "^4.5.4"
   },
   "engines": {
-    "node": ">=v14.18.0",
-    "npm": ">=7.24.2"
+    "node": ">=v16",
+    "npm": ">=8"
   },
   "lint-staged": {
     "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/favware/dexa.git"
-  },
-  "bugs": {
-    "url": "https://github.com/favware/dexa/issues"
-  },
-  "keywords": [
-    "favware",
-    "typescript",
-    "ts",
-    "yarn",
-    "alexa",
-    "alexa-app",
-    "pokemon",
-    "dexa"
-  ],
-  "resolutions": {
-    "acorn": "^8.6.0",
-    "jest-environment-jsdom": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.3.tgz",
-    "apollo-codegen": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.3.tgz",
-    "chalk": "^4.1.2",
-    "jest-jasmine2": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.3.tgz"
-  }
+  "packageManager": "yarn@3.1.1"
 }

@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import Dexa from '../dist/dexa.js';
 
 const dexa = new Dexa.default();
