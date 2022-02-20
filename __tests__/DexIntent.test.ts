@@ -61,14 +61,6 @@ describe('DexIntent', () => {
 
     expect(res.status).toBe(200);
 
-    (await import('child_process')).execFile('clippy', ['--copy']).stdin?.end(
-      (await import('util')).inspect(ssml, {
-        depth: Infinity,
-        maxArrayLength: Infinity,
-        showHidden: false
-      })
-    );
-
     expect(ssml).toBe(
       oneLine(`
           <speak>Eevee, number 133, Harbors the potential to evolve into manifold forms.
