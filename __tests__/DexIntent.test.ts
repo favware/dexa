@@ -60,11 +60,21 @@ describe('DexIntent', () => {
     const { ssml } = res.body.response.outputSpeech;
 
     expect(res.status).toBe(200);
+
+    (await import('child_process')).execFile('clippy', ['--copy']).stdin?.end(
+      (await import('util')).inspect(ssml, {
+        depth: Infinity,
+        maxArrayLength: Infinity,
+        showHidden: false
+      })
+    );
+
     expect(ssml).toBe(
       oneLine(`
-        <speak>Eevee, number 133, Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
-          It is Normal type. It evolves into
-          Vaporeon (Special Condition: use Water Stone) and
+          <speak>Eevee, number 133, Harbors the potential to evolve into manifold forms.
+          Within Eevee lies the key to the mysteries of Pokémon evolution—I'm certain of it.
+          It is Normal type.
+          It evolves into Vaporeon (Special Condition: use Water Stone) and
           Jolteon (Special Condition: use Thunder Stone) and
           Flareon (Special Condition: use Fire Stone) and
           Espeon (Special Condition: Level up during Daytime with happiness of at least 220) and
@@ -206,14 +216,13 @@ describe('DexIntent', () => {
     const { ssml } = res.body.response.outputSpeech;
 
     expect(res.status).toBe(200);
+
     expect(ssml).toBe(
       oneLine(`
-      <speak>Metagross, number 376, Metagross is the result of the fusion of two Metang.
-      This Pokémon defeats its opponents through use of its supercomputer-level brain.
+      <speak>Metagross, number 376, Metang combined to form it.
+      With four brains, it has the intelligence of a supercomputer.
       It is Steel Psychic type.
-      Its pre-evolutions are
-      Metang (Level: 45) and
-      Beldum (Level: 20).
+      Its pre-evolutions are Metang (Level: 45) and Beldum (Level: 20).
       Metagross is typically 1.6 meters tall and weighs about 550 kilograms.
       It is genderless.</speak>
     `)
