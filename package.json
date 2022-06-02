@@ -15,7 +15,7 @@
     "deploy": "node scripts/clean.mjs && node scripts/bundle.mjs && cd bundle && zip -rq function.zip . && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
     "sversion": "standard-version",
     "scripts:skilldatagenerator": "yarn build && node scripts/skillDataGenerator.mjs",
-    "prepare": "husky install .github/husky"
+    "postinstall": "husky install .github/husky"
   },
   "dependencies": {
     "@sapphire/utilities": "^3.6.2",
