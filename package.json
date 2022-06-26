@@ -21,7 +21,7 @@
     "@sapphire/utilities": "^3.6.2",
     "alexa-app": "^4.2.3",
     "apollo-boost": "^0.4.9",
-    "confusables": "^1.1.0",
+    "confusables": "^1.1.1",
     "cross-fetch": "^3.1.5",
     "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6"
