@@ -15,16 +15,16 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  - type: checkboxes
+  - type: dropdown
     id: native-english
     attributes:
       label: Are you a (near)-native English speaker?
       description: Because Alexa skills are inherently sensitive to clear pronunciation it is relevant to know whether you are a (near)-native English speaker or not.
       options:
-        - label: 'Yes'
-          required: true
-        - label: 'No'
-          required: true
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
   - type: textarea
     id: bug-description
     attributes:
