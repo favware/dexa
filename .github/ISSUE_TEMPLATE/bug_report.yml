@@ -21,8 +21,10 @@ body:
       label: Are you a (near)-native English speaker?
       description: Because Alexa skills are inherently sensitive to clear pronunciation it is relevant to know whether you are a (near)-native English speaker or not.
       options:
-        - label: Yes
-        - label: No
+        - label: 'Yes'
+          required: true
+        - label: 'No'
+          required: true
   - type: textarea
     id: bug-description
     attributes:
