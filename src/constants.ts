@@ -11,24 +11,18 @@ export const getFuzzyPokemon = gql`
   fragment dexdetails on Pokemon {
     num
     species
-    types
+    types {
+      name
+    }
     evolutionLevel
     height
     weight
-    sprite
-    smogonTier
     flavorTexts {
       flavor
     }
     gender {
       male
       female
-    }
-    abilities {
-      first
-      second
-      hidden
-      special
     }
   }
 
@@ -70,7 +64,6 @@ export const getFuzzyItem = gql`
     getFuzzyItem(item: $item) {
       desc
       name
-      sprite
       isNonstandard
       generationIntroduced
     }
@@ -89,7 +82,6 @@ export const getFuzzyMove = gql`
       accuracy
       priority
       target
-      contestType
       isNonstandard
       isZ
       isGMax

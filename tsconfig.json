@@ -1,9 +1,0 @@
-{
-  "extends": "@sapphire/ts-config",
-  "compilerOptions": {
-    "target": "ES2018",
-    "declarationMap": false,
-    "sourceMap": false,
-    "removeComments": true
-  }
-}

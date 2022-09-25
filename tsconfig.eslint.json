@@ -1,7 +1,7 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": "./"
   },
-  "include": ["src", "scripts", "__tests__", "jest.config.mjs"]
+  "include": ["src", "scripts", "tests", "vitest.config.ts", "tsup.config.ts"]
 }

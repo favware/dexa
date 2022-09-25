@@ -37,7 +37,7 @@ export default class extends AlexaApp {
   public constructor() {
     super('dexa');
     this.apollo = new ApolloClient({
-      uri: this.DEV ? 'http://localhost:4000' : 'https://graphqlpokemon.favware.tech/',
+      uri: this.DEV ? 'http://localhost:4000' : 'https://graphqlpokemon.favware.tech/v7',
       fetchOptions: { headers: { 'User-Agent': 'Favware/Dexa <Alexa API service>' } },
       fetch
     });
@@ -120,7 +120,7 @@ export default class extends AlexaApp {
 
       const text = [
         `${titleCaseName}, number ${pokeData.num}, ${pokeData.flavorTexts[0].flavor}`,
-        `It is ${pokeData.types.join(' ')} type.`,
+        `It is ${pokeData.types.map((type) => type.name).join(' ')} type.`,
         prevos.length ? `Its pre-evolution${prevos.length >= 2 ? 's are' : ' is'} ${prevos.join(' and ')}.` : null,
         evos.length ? `It evolves into ${evos.join(' and ')}.` : null,
         `${titleCaseName} is typically ${pokeData.height} meters tall and weighs about ${pokeData.weight} kilograms.`,
