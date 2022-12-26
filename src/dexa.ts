@@ -37,7 +37,7 @@ export default class extends AlexaApp {
   public constructor() {
     super('dexa');
     this.apollo = new ApolloClient({
-      uri: this.DEV ? 'https://graphqlpokemon.favware.tech/v7' : 'https://graphqlpokemon.favware.tech/v7',
+      uri: this.DEV ? 'http://localhost:4000' : 'https://graphqlpokemon.favware.tech/v7',
       fetchOptions: { headers: { 'User-Agent': 'Favware/Dexa <Alexa API service>' } },
       fetch
     });
