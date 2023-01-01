@@ -97,8 +97,8 @@ describe('MoveIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-    <speak>Pika Papow, Max happiness: 102 power.
-      Can\'t miss. Pika Papow is an Electric type move.
+      <speak>Pika Papow, Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.
+      Pika Papow is an Electric type move.
       Pika Papow base power is calculated based on (happiness * 10) / 25 and it has 20 pp.
       Under normal conditions this move will have a priority of 0 and an accuracy of 100%.
       In battles with multiple Pokémon on each side it will have an effect on regular targets.

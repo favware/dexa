@@ -27,8 +27,7 @@ describe('DexIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-        <speak>Dragonite, number 149, This Pokémon is known as the Sea Incarnate.
-        Figureheads that resemble Dragonite decorate the bows of many ships.
+        <speak>Dragonite, number 149, It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours.
         It is Dragon Flying type.
         Its pre-evolutions are Dragonair (Level: 55) and Dratini (Level: 30).
         Dragonite is typically 2.2 meters tall and weighs about 210 kilograms.
@@ -63,10 +62,10 @@ describe('DexIntent', () => {
 
     expect(ssml).toBe(
       oneLine(`
-          <speak>Eevee, number 133, Harbors the potential to evolve into manifold forms.
-          Within Eevee lies the key to the mysteries of Pokémon evolution—I'm certain of it.
+          <speak>Eevee, number 133, Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.
           It is Normal type.
-          It evolves into Vaporeon (Special Condition: use Water Stone) and
+          It evolves into
+          Vaporeon (Special Condition: use Water Stone) and
           Jolteon (Special Condition: use Thunder Stone) and
           Flareon (Special Condition: use Fire Stone) and
           Espeon (Special Condition: Level up during Daytime with happiness of at least 220) and
@@ -105,13 +104,12 @@ describe('DexIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-      <speak>Dragonair, number 148, This Pokémon gathers power in the orbs on its tail and controls the weather.
-      When enshrouded by an aura, Dragonair has a mystical appearance.
-      It is Dragon type.
-      Its pre-evolution is Dratini (Level: 30).
-      It evolves into Dragonite (Level: 55).
-      Dragonair is typically 4 meters tall and weighs about 16.5 kilograms.
-      It has a gender ratio of 50% male and 50% female.</speak>
+        <speak>Dragonair, number 148, It is called the divine Pokémon. When its entire body brightens slightly, the weather changes.
+        It is Dragon type.
+        Its pre-evolution is Dratini (Level: 30).
+        It evolves into Dragonite (Level: 55).
+        Dragonair is typically 4 meters tall and weighs about 16.5 kilograms.
+        It has a gender ratio of 50% male and 50% female.</speak>
     `)
     );
   });
@@ -141,12 +139,11 @@ describe('DexIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-      <speak>Dratini, number 147, This Pokémon was long considered to be no more than a myth.
-      The small lump on a Dratini's forehead is actually a horn that's still coming in.
-      It is Dragon type.
-      It evolves into Dragonair (Level: 30) and Dragonite (Level: 55).
-      Dratini is typically 1.8 meters tall and weighs about 3.3 kilograms.
-      It has a gender ratio of 50% male and 50% female.</speak>
+        <speak>Dratini, number 147, It is born large to start with. It repeatedly sheds its skin as it steadily grows longer.
+          It is Dragon type.
+          It evolves into Dragonair (Level: 30) and Dragonite (Level: 55).
+          Dratini is typically 1.8 meters tall and weighs about 3.3 kilograms.
+          It has a gender ratio of 50% male and 50% female.</speak>
     `)
     );
   });
