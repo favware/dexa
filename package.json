@@ -24,7 +24,7 @@
     "apollo-boost": "^0.4.9",
     "confusables": "^1.1.1",
     "cross-fetch": "^4.0.0",
-    "graphql": "^16.8.0",
+    "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
