@@ -1,5 +1,4 @@
 .yarn/
-.github/husky/
 node_modules/
 bundle/
 dist/
