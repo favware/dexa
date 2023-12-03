@@ -1,5 +1,6 @@
-import Dexa from '../dist/dexa.js';
+import Dexa from '../src/dexa';
 
+// @ts-expect-error alexa-app seriously needs to be updated to ESM
 const dexa = new Dexa.default();
 
 console.group('Skill Data');
