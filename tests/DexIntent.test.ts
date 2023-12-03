@@ -173,8 +173,8 @@ describe('DexIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-      <speak>Smeargle, number 235, It draws symbols with the fluid that oozes from the tip of its tail.
-      Depending on the symbol, Smeargle fanatics will pay big money for them.
+      <speak>Smeargle, number 235, It marks its territory by using its tail like a paintbrush.
+      There are more than 5,000 different marks.
       It is Normal type.
       Smeargle is typically 1.2 meters tall and weighs about 58 kilograms.
       It has a gender ratio of 50% male and 50% female.</speak>

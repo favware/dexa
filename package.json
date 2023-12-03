@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "eslint src scripts tests --ext mjs,ts --fix",
+    "lint": "eslint src scripts tests --ext ts --fix",
     "prettier": "prettier --ignore-path=.prettierignore",
     "format": "prettier --write src scripts",
     "test": "vitest run",
@@ -14,7 +14,7 @@
     "watch": "tsc -b src -w",
     "update": "yarn upgrade-interactive --latest",
     "deploy": "tsup && cd bundle && zip -rq function.zip . && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
-    "scripts:skilldatagenerator": "yarn tsx scripts/skillDataGenerator.mts"
+    "scripts:skilldatagenerator": "yarn tsx scripts/skillDataGenerator.ts"
   },
   "dependencies": {
     "@sapphire/utilities": "^3.13.0",
