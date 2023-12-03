@@ -14,7 +14,6 @@
     "watch": "tsc -b src -w",
     "update": "yarn upgrade-interactive --latest",
     "deploy": "tsup && cd bundle && zip -rq function.zip . && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
-    "sversion": "standard-version",
     "scripts:skilldatagenerator": "yarn build && node scripts/skillDataGenerator.mjs"
   },
   "dependencies": {
@@ -56,8 +55,7 @@
     "minimist": "^1.2.8"
   },
   "engines": {
-    "node": ">=v16",
-    "npm": ">=8"
+    "node": ">=v20"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
