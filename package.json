@@ -27,7 +27,7 @@
     "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
-    "@favware/graphql-pokemon": "^7.3.4",
+    "@favware/graphql-pokemon": "^8.1.1",
     "@sapphire/eslint-config": "^5.0.2",
     "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^5.0.0",
