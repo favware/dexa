@@ -173,8 +173,7 @@ describe('DexIntent', () => {
     expect(res.status).toBe(200);
     expect(ssml).toBe(
       oneLine(`
-      <speak>Smeargle, number 235, It marks its territory by using its tail like a paintbrush.
-      There are more than 5,000 different marks.
+      <speak>Smeargle, number 235, The color of the mysterious fluid secreted from the tip of the tail is predetermined for each Smeargle.
       It is Normal type.
       Smeargle is typically 1.2 meters tall and weighs about 58 kilograms.
       It has a gender ratio of 50% male and 50% female.</speak>
@@ -208,8 +207,8 @@ describe('DexIntent', () => {
 
     expect(ssml).toBe(
       oneLine(`
-      <speak>Metagross, number 376, Metang combined to form it.
-      With four brains, it has the intelligence of a supercomputer.
+      <speak>Metagross, number 376, It firmly pins its prey using its four claws and large body.
+      Then Metagross uses the mouth on its stomach to chew its prey to bits.
       It is Steel Psychic type.
       Its pre-evolutions are Metang (Level: 45) and Beldum (Level: 20).
       Metagross is typically 1.6 meters tall and weighs about 550 kilograms.
