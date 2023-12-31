@@ -17,7 +17,7 @@
     "scripts:skilldatagenerator": "yarn tsx scripts/skillDataGenerator.ts"
   },
   "dependencies": {
-    "@sapphire/utilities": "^3.14.0",
+    "@sapphire/utilities": "^3.15.1",
     "alexa-app": "^4.2.3",
     "apollo-boost": "^0.4.9",
     "confusables": "^1.1.1",
@@ -26,15 +26,15 @@
     "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
-    "@favware/graphql-pokemon": "^8.3.1",
+    "@favware/graphql-pokemon": "^8.3.3",
     "@sapphire/eslint-config": "^5.0.3",
     "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^5.0.0",
     "@types/express": "^4.17.21",
-    "@types/node": "^20.10.5",
-    "@types/supertest": "^6.0.1",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
+    "@types/node": "^20.10.6",
+    "@types/supertest": "^6.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
     "@vitest/coverage-v8": "^1.1.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
