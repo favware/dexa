@@ -1,8 +1,0 @@
-version: '3.9'
-services:
-  pokedex:
-    container_name: pokedex
-    image: ghcr.io/favware/graphql-pokemon:latest
-    restart: 'no'
-    ports:
-      - '4000:4000'

@@ -1,0 +1,29 @@
+{
+	"name": "@favware/dexa",
+	"version": "3.0.0",
+	"description": "Amazing pokedex skill for Alexa",
+	"license": "MIT",
+	"type": "commonjs",
+	"private": true,
+	"scripts": {
+		"lint": "eslint src --ext ts --fix",
+		"format": "prettier --write .",
+		"build": "tsc -b src",
+		"watch": "tsc -b src -w",
+		"deploy": "tsup && cd bundle && zip -rq function.zip . && aws lambda update-function-code --function-name alexa_dexa --zip-file fileb://function.zip",
+		"skilldatagenerator": "yarn tsx scripts/skillDataGenerator.mts"
+	},
+	"dependencies": {
+		"@sapphire/utilities": "^3.13.0",
+		"apollo-boost": "^0.4.9",
+		"confusables": "^1.1.1",
+		"cross-fetch": "^4.0.0",
+		"graphql": "^16.8.1",
+		"graphql-tag": "^2.12.6"
+	},
+	"devDependencies": {
+		"tsup": "^8.0.1",
+		"tsx": "^4.6.2",
+		"typescript": "^5.3.2"
+	}
+}

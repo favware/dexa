@@ -31,9 +31,9 @@ Dexa is a skill for Amazon Alexa to easily find data from in the Pokédex. You c
 
 ## Special Thanks
 
-- Creators of [Alexa-App](https://github.com/alexa-js/alexa-app) for the framework
+-   Creators of [Alexa-App](https://github.com/alexa-js/alexa-app) for the framework
 
-- [dblock](https://github.com/dblock/alexa-parrot) for creating the alexa-app tutorial that got me started
+-   [dblock](https://github.com/dblock/alexa-parrot) for creating the alexa-app tutorial that got me started
 
 ## License
 
@@ -46,11 +46,11 @@ Favware projects are open source and always will be, even if there are no donati
 
 You can contribute in a multitude of ways:
 
-- [PayPal](https://donate.favware.tech/paypal)
-- [Patreon](https://www.patreon.com/favna)
-- [Ko-Fi](https://ko-fi.com/favna)
-- [GitHub Sponsors Favware](https://github.com/sponsors/favware)
-- [GitHub Sponsors Favna](https://github.com/sponsors/Favna)
-- Bitcoin: `1E643TNif2MTh75rugepmXuq35Tck4TnE5`
-- Ethereum: `0xF653F666903cd8739030D2721bF01095896F5D6E`
-- LiteCoin: `LZHvBkaJqKJRa8N7Dyu41Jd1PDBAofCik6`
+-   [PayPal](https://donate.favware.tech/paypal)
+-   [Patreon](https://www.patreon.com/favna)
+-   [Ko-Fi](https://ko-fi.com/favna)
+-   [GitHub Sponsors Favware](https://github.com/sponsors/favware)
+-   [GitHub Sponsors Favna](https://github.com/sponsors/Favna)
+-   Bitcoin: `1E643TNif2MTh75rugepmXuq35Tck4TnE5`
+-   Ethereum: `0xF653F666903cd8739030D2721bF01095896F5D6E`
+-   LiteCoin: `LZHvBkaJqKJRa8N7Dyu41Jd1PDBAofCik6`

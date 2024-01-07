@@ -16,7 +16,7 @@ To get ready to work on the codebase, please do the following:
 4. Ensure your changes compile (`yarn build`)
 5. If you have any substantial code changes make sure these are covered in unit tests
 6. Run `yarn lint && yarn test` to run ESLint and ensure all tests pass
-   - In order to run tests you will need to have the API running locally, ideally through Docker:
+    - In order to run tests you will need to have the API running locally, ideally through Docker:
 
 ```sh
 docker-compose up --detach pokedex

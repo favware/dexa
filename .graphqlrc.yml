@@ -1,4 +1,0 @@
-schema: 'https://graphqlpokemon.favware.tech/v8'
-documents:
-  - ./src/lib/gql/queries.ts
-  - ./src/lib/gql/fuzzyQueries.ts
