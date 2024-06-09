@@ -458,7 +458,7 @@ __metadata:
     rimraf: "npm:^5.0.7"
     supertest: "npm:^7.0.0"
     tsup: "npm:^8.1.0"
-    tsx: "npm:^4.14.1"
+    tsx: "npm:^4.15.0"
     typescript: "npm:^5.4.5"
     vite: "npm:^5.2.13"
     vitest: "npm:^1.6.0"
@@ -2090,7 +2090,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.20.1, esbuild@npm:~0.20.2":
+"esbuild@npm:^0.20.1":
   version: 0.20.2
   resolution: "esbuild@npm:0.20.2"
   dependencies:
@@ -2170,7 +2170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.21.4":
+"esbuild@npm:^0.21.4, esbuild@npm:~0.21.4":
   version: 0.21.4
   resolution: "esbuild@npm:0.21.4"
   dependencies:
@@ -5105,11 +5105,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.14.1":
-  version: 4.14.1
-  resolution: "tsx@npm:4.14.1"
+"tsx@npm:^4.15.0":
+  version: 4.15.0
+  resolution: "tsx@npm:4.15.0"
   dependencies:
-    esbuild: "npm:~0.20.2"
+    esbuild: "npm:~0.21.4"
     fsevents: "npm:~2.3.3"
     get-tsconfig: "npm:^4.7.5"
   dependenciesMeta:
@@ -5117,7 +5117,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10/2bf8156421deb44e6b9740512c5f52649617e7c87c941394fd1130796ef343beddc742c6a14809f5ba2f7f05108621fef5362fc49e9652141b7efa6a605634d6
+  checksum: 10/0344ee057d2e44a0cc981b2f07f75d155ebf06f25540ebc6f3ce8dbc81654d99f74c0a041f0d80f53ecacd3ae702fbeff106788dae19a8e3ece4c3b33fa980c2
   languageName: node
   linkType: hard
 
