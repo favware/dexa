@@ -17,7 +17,7 @@
     "scripts:skilldatagenerator": "yarn tsx scripts/skillDataGenerator.ts"
   },
   "dependencies": {
-    "@sapphire/utilities": "^3.16.2",
+    "@sapphire/utilities": "^3.17.0",
     "alexa-app": "^4.2.3",
     "apollo-boost": "^0.4.9",
     "confusables": "^1.1.1",
@@ -31,11 +31,11 @@
     "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^5.0.1",
     "@types/express": "^4.17.21",
-    "@types/node": "^20.14.11",
+    "@types/node": "^20.14.12",
     "@types/supertest": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
-    "@vitest/coverage-v8": "^2.0.3",
+    "@vitest/coverage-v8": "^2.0.4",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -45,11 +45,11 @@
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "supertest": "^7.0.0",
-    "tsup": "^8.2.1",
+    "tsup": "^8.2.3",
     "tsx": "^4.16.2",
     "typescript": "^5.5.2",
-    "vite": "^5.3.4",
-    "vitest": "^2.0.3"
+    "vite": "^5.3.5",
+    "vitest": "^2.0.4"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1",
