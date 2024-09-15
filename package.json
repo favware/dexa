@@ -35,21 +35,21 @@
     "@types/supertest": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
-    "@vitest/coverage-v8": "^2.0.5",
+    "@vitest/coverage-v8": "^2.1.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "lint-staged": "^15.2.10",
-    "npm-run-all2": "^6.2.2",
+    "npm-run-all2": "^6.2.3",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "supertest": "^7.0.0",
     "tsup": "^8.2.4",
-    "tsx": "^4.19.0",
+    "tsx": "^4.19.1",
     "typescript": "^5.5.2",
-    "vite": "^5.4.3",
-    "vitest": "^2.0.5"
+    "vite": "^5.4.5",
+    "vitest": "^2.1.1"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1",
@@ -62,5 +62,5 @@
     "*": "prettier --ignore-unknown --write",
     "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
   },
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.5.0"
 }
