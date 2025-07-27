@@ -44,11 +44,11 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
-    "supertest": "^7.1.1",
+    "supertest": "^7.1.4",
     "tsup": "^8.5.0",
     "tsx": "^4.20.3",
     "typescript": "^5.5.2",
-    "vite": "^7.0.5",
+    "vite": "^7.0.6",
     "vitest": "^3.2.4"
   },
   "resolutions": {
