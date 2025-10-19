@@ -285,7 +285,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@favware/dexa@workspace:."
   dependencies:
-    "@favware/graphql-pokemon": "npm:^8.7.2"
+    "@favware/graphql-pokemon": "npm:^8.7.3"
     "@sapphire/eslint-config": "npm:^5.0.6"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@sapphire/ts-config": "npm:^5.0.1"
@@ -319,12 +319,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@favware/graphql-pokemon@npm:^8.7.2":
-  version: 8.7.2
-  resolution: "@favware/graphql-pokemon@npm:8.7.2"
+"@favware/graphql-pokemon@npm:^8.7.3":
+  version: 8.7.3
+  resolution: "@favware/graphql-pokemon@npm:8.7.3"
   dependencies:
     graphql: "npm:16.11.0"
-  checksum: 10/3fbeb36da44a4cf0b7ae02e1a5b0b654c65428e9acf549d9deeae200d6dd79c20e4d56eab8c25f7ec02158fdc575075f853d37c3637d4c8dd5c44abfd32c5a09
+  checksum: 10/99e70dc1e8fbaec0d7965de088a73c0e2f069ffecfc883b43e3b613e0a44090026b711b8c254d821f6e5b0e6391cb6d5adb9abf41ac0d275e9e5c285428eca34
   languageName: node
   linkType: hard
 
