@@ -22,7 +22,7 @@
     "apollo-boost": "^0.4.9",
     "confusables": "^1.1.1",
     "cross-fetch": "^4.1.0",
-    "graphql": "^16.11.0",
+    "graphql": "^16.12.0",
     "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
@@ -30,8 +30,8 @@
     "@sapphire/eslint-config": "^5.0.6",
     "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^5.0.1",
-    "@types/express": "^5.0.4",
-    "@types/node": "^22.18.12",
+    "@types/express": "^5.0.5",
+    "@types/node": "^22.18.13",
     "@types/supertest": "^6.0.3",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
@@ -43,7 +43,7 @@
     "lint-staged": "^16.2.6",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.0",
     "supertest": "^7.1.4",
     "tsup": "^8.5.0",
     "tsx": "^4.20.6",
