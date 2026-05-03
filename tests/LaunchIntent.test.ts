@@ -5,7 +5,7 @@ describe('LaunchIntent', () => {
   test('GIVEN Request to Launch THEN returns launch blurb', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {

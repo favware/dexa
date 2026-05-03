@@ -30,6 +30,7 @@ coverage/
 # Transpiled files
 dist/
 bundle/
+src/tsconfig.tsbuildinfo
 
 # Yarn files
 .yarn/install-state.gz

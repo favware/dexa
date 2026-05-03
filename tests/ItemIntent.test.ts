@@ -5,7 +5,7 @@ describe('ItemIntent', () => {
   test('GIVEN Item in Generation 8 THEN returns data', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -37,7 +37,7 @@ describe('ItemIntent', () => {
   test('GIVEN Item not in Generation 8 THEN returns data', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {

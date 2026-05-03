@@ -5,7 +5,7 @@ describe('MoveIntent', () => {
   test('GIVEN Normal move THEN returns regular data', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -40,7 +40,7 @@ describe('MoveIntent', () => {
   test('GIVEN Status move THEN returns move without base power', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -75,7 +75,7 @@ describe('MoveIntent', () => {
   test('GIVEN special base power move THEN returns special calculated basepower', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -110,7 +110,7 @@ describe('MoveIntent', () => {
   test('GIVEN move with base power 0 THEN returns has 0 base power', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -144,7 +144,7 @@ describe('MoveIntent', () => {
   test('GIVEN Z-Move THEN returns Z-Crystal', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
@@ -179,7 +179,7 @@ describe('MoveIntent', () => {
   test('GIVEN GMAX-Move THEN returns Pokémon that can use this move', async () => {
     expect.assertions(2);
 
-    const res = await fetch(SERVER)
+    const res = await fetch(SERVER!)
       .post('/dexa')
       .send({
         request: {
