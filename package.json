@@ -23,7 +23,7 @@
     "confusables": "^1.1.1",
     "cross-fetch": "^4.1.0",
     "graphql": "^16.14.2",
-    "graphql-tag": "^2.12.6"
+    "graphql-tag": "^2.12.7"
   },
   "devDependencies": {
     "@favware/graphql-pokemon": "^8.8.1",
@@ -31,11 +31,11 @@
     "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^5.0.3",
     "@types/express": "^5.0.6",
-    "@types/node": "^25.9.3",
+    "@types/node": "^25.9.4",
     "@types/supertest": "^6.0.3",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "@vitest/coverage-v8": "^4.1.8",
+    "@vitest/coverage-v8": "^4.1.9",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",
@@ -49,7 +49,7 @@
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vite": "^8.0.16",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.9"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1",
@@ -62,5 +62,5 @@
     "*": "prettier --ignore-unknown --write",
     "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
   },
-  "packageManager": "yarn@4.16.0"
+  "packageManager": "yarn@4.17.0"
 }
